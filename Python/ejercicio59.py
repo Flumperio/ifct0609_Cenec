@@ -5,6 +5,12 @@
 
 notaAlumno = float(input("Introduce tu nota: "))
 if notaAlumno >= 5:
-    print(f"Con una nota de: {notaAlumno}. Has aprobado!!!")
+    if notaAlumno > 8:
+        print(f"Has aprobado con muy buena nota. {notaAlumno}")
+    else:
+        print(f"Has aprobado sobradamente. {notaAlumno}")
 else:
-    print(f"Con una nota de: {notaAlumno}. Has suspendido.")
+    if notaAlumno <= 2:
+        print(f"Con una nota de: {notaAlumno}. Has suspendido.")
+    else:
+        print(f"Con esta nota de: {notaAlumno}, mejor dedicate a otra cosa.")
