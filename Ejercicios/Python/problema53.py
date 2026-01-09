@@ -1,46 +1,28 @@
-#Se cuenta con la siguiente información:Las edades de 5 estudiantes del turno mañana.
-#Las edades de 6 estudiantes del turno tarde.Las edades de 11 estudiantes del turno noche.Las edades de cada estudiante deben ingresarse por teclado.
-#a) Obtener el promedio de las edades de cada turno (tres promedios)
-#b) Imprimir dichos promedios (promedio de cada turno)
-#c) Mostrar por pantalla un mensaje que indique cual de los tres turnos tiene un promedio de edades mayor.
-# Inicializar acumuladores y contadores
-sumaManana = 0
-sumaTarde = 0
-sumaNoche = 0
+#Se realiza la carga de 10 valores enteros por teclado. Se desea conocer:
+#a) La cantidad de valores ingresados negativos.
+#b) La cantidad de valores ingresados positivos.
+#c) La cantidad de múltiplos de 15.
+#d) El valor acumulado de los números ingresados que son pares.
+valoresNegativos = 0
+valoresPositivos = 0
+valoresMul15 = 0
+sumaPares = 0
+for i in range(10):
+    valor = int(input("Ingrese un valor entero: "))
 
-# Turno mañana (5 estudiantes)
-print("=== TURNO MAÑANA ===")
-for cnt in range(5):
-    edad = int(input(f"Edad estudiante {cnt + 1}: "))
-    sumaManana += edad
+    if valor < 0:
+        valoresNegativos += 1
+    elif valor > 0:
+        valoresPositivos += 1
 
-# Turno tarde (6 estudiantes)
-print("=== TURNO TARDE ===")
-for cnt in range(6):
-    edad = int(input(f"Edad estudiante {cnt + 1}: "))
-    sumaTarde += edad
+    if valor % 15 == 0:
+        valoresMul15 += 1
 
-# Turno noche (11 estudiantes)
-print("=== TURNO NOCHE ===")
-for cnt in range(11):
-    edad = int(input(f"Edad estudiante {cnt + 1}: "))
-    sumaNoche += edad
+    if valor % 2 == 0:
+        sumaPares += valor
 
-# Calcular promedios
-promManana = sumaManana / 5
-promTarde = sumaTarde / 6
-promNoche = sumaNoche / 11
+print(f"a) Valores negativos: {valoresNegativos}")
+print(f"b) Valores positivos: {valoresPositivos}")
+print(f"c) Múltiplos de 15: {valoresMul15}")
+print(f"d) Suma de pares: {sumaPares}")
 
-# a) y b) Mostrar promedios
-print("\n=== PROMEDIOS ===")
-print(f"a) Promedio mañana: {promManana:.1f} años")
-print(f"b) Promedio tarde: {promTarde:.1f} años")
-print(f"c) Promedio noche: {promNoche:.1f} años")
-
-# c) Turno con mayor promedio
-if promManana > promTarde and promManana > promNoche:
-    print("El turno mañana tiene el promedio de edades mayor.")
-elif promTarde > promNoche:
-    print("El turno tarde tiene el promedio de edades mayor.")
-else:
-    print("El turno noche tiene el promedio de edades mayor.")

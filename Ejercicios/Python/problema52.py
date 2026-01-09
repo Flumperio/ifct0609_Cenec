@@ -7,7 +7,7 @@ cant2 = 0
 cant3 = 0
 cant4 = 0
 numeroPuntos = 0
-numeroPutos = int(input("Cantidad de puntos a procesar: "))
+numeroPuntos = int(input("Cantidad de puntos a procesar: "))
 
 for i in range(numeroPuntos):
     x = float(input("Coordenada x: "))
