@@ -24,8 +24,8 @@ public class Calculo_Factura {
 		System.out.println("***** Resultado *****");
 		System.out.println("El importe del producto es: " + importe_producto + "€");
 		System.out.println("El descuento es de : " + descuento + "%");
-		System.out.println("El importe total del producto es: " + importe_total + "€");
-		System.out.println("El iva a aplicar es del: " + tipo_iva + "%" + ". El importe es: " + calculo_iva + "€");
+		System.out.println("El importe total del producto es: " + String.format("%.2f", importe_total) + "€");
+		System.out.println("El iva a aplicar es del: " + tipo_iva + "%" + ". El importe es: " + String.format("%.2f", calculo_iva) + "€");
 		System.out.println("**************************************************");
 		System.out.println("* El total de la factura es: " + String.format ("%.2f",total_factura) + "€");
 		System.out.println("**************************************************");
