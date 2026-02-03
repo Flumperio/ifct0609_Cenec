@@ -3,7 +3,7 @@ package Condicionales;
 //Importamos Librerias
 import java.util.Scanner;
 
-public class EjercioNotas {
+public class Ejercicio_6_Notas {
     public static void main (String[] args){
         //Definimos variables
         Scanner teclado = new Scanner(System.in);
