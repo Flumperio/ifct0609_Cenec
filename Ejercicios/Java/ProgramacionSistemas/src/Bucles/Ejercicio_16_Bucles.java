@@ -19,8 +19,8 @@ public class Ejercicio_16_Bucles {
                 espacios++;
             }
             while (asteriscos < (fila * 2) - 1) {
-            System.out.print("*");
-            asteriscos++;
+                System.out.print("*");
+                asteriscos++;
             }
             asteriscos = 0;
             espacios = 0;
