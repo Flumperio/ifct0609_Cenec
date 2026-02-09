@@ -1,7 +1,7 @@
 package Metodos;
 
 public class Impresion_Resultados {
-    public void cabecera (String nombre){
+    public void cabecera(String nombre) {
         int len = nombre.length();
         int total = 20;
         if (len % 2 == 0) total++;  // Ajuste paridad
@@ -17,4 +17,6 @@ public class Impresion_Resultados {
         // Línea inferior
         for (int i = 0; i < total; i++) System.out.print("*");
         System.out.println();
+    }
 }
+

@@ -1,5 +1,3 @@
-package Bucles;
-
 //Import Clases
 import java.util.Scanner;
 
