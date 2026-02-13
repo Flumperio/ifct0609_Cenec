@@ -8,6 +8,7 @@ public class UserPass {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce " + valor + ":");
         entrada_dato = teclado.nextLine();
+        teclado.close();
         return entrada_dato;
     }
 

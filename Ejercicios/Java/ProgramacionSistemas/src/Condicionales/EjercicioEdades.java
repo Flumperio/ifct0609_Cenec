@@ -22,6 +22,7 @@ public class EjercicioEdades {
         } else {
             System.out.println("A ver obras campeón de petanca. Has llegado a tener: " + edad);
         }
+        teclado.close();
     }
 }
 

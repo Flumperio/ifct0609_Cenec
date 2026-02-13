@@ -40,6 +40,7 @@ public class Caluladora {
                 valores[1] = teclado.nextInt();
             }
         }
+        teclado.close();
         return salida_menu;
     }
 

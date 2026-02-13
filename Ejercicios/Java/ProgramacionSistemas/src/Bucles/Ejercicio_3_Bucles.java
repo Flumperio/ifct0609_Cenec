@@ -19,5 +19,6 @@ public class Ejercicio_3_Bucles {
         //Impresion
         System.out.println("**** RESULTADO ****");
         System.out.println("Suma es: " + resultado);
+        teclado.close();
     }
 }

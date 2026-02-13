@@ -1,7 +1,5 @@
 package Metodos;
 
-import java.util.Scanner;
-
 public class Main_UserPass {
     public static void main (String[] args){
         //Definición variables

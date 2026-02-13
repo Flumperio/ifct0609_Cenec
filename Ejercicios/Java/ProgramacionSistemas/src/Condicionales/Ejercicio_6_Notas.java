@@ -29,5 +29,6 @@ public class Ejercicio_6_Notas {
                 System.out.println("La nota no puede ser " + nota);
             }
         }
+        teclado.close();
     }
 }

@@ -7,7 +7,7 @@ public class Ejercicio_10_Descuento {
     public static void main (String[] args) {
         //Definimos variables
         Scanner teclado = new Scanner(System.in);
-        double importe, resultado = 0.0;
+        double importe = 0.0;
         double descuento = 0.0;
         String entrada_cliente, tipo_cliente = "Normal";
         //Introducción datos

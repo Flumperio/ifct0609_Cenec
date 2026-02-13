@@ -28,5 +28,6 @@ public class Ejercicio_5_Bucles {
         System.out.println("Total de números positívos: " + positivos);
         System.out.println("Total de números negativos: " + negativo);
         System.out.println("Total de números cero: " + ceros);
+        teclado.close();
     }
 }

@@ -18,5 +18,6 @@ public class Ejercicio_4_Bucles {
         //Impresion
         System.out.println("**** RESULTADO ****");
         System.out.println("El promedio es: " + resultado);
+        teclado.close();
     }
 }

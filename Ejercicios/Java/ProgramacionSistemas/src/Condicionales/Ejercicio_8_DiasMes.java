@@ -29,5 +29,6 @@ public class Ejercicio_8_DiasMes {
             dias = 30;
         }
         System.out.println("El mes " + mes + " de " + anio + " tiene " + dias);
+        teclado.close();
     }
 }

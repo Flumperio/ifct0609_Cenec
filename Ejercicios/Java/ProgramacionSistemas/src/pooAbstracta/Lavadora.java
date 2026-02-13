@@ -1,7 +1,5 @@
 package pooAbstracta;
 
-import POO.Ejercicio_1;
-
 public class Lavadora extends Electrodomestico {
     //Atributos
     private int carga;

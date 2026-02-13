@@ -16,6 +16,7 @@ public class Ejercicio_6_Bucles {
         for (int cnt=0; cnt<=10; cnt++ ){
             System.out.println((""+cnt+" * "+multiplicador+" = "+cnt*multiplicador));
         }
+        teclado.close();
     }
 }
 

@@ -1,6 +1,5 @@
 package pooAbstracta;
 
-import Metodos.Capicua;
 
 public class ElectrodomesticoMain {
     public static void main(String[] args) {

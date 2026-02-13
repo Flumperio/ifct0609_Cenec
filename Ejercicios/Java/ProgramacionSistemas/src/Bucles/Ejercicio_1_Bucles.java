@@ -1,7 +1,6 @@
 package Bucles;
 
 //Import Clases
-import java.util.Scanner;
 
 public class Ejercicio_1_Bucles {
     public static void main (String[] args){

@@ -28,6 +28,6 @@ public class Tabla_Multiplicar_FOR_WHILE_DOWHILE {
             System.out.println((""+cnt+" * "+multiplicador+" = "+cnt*multiplicador));
             cnt++;
         } while (cnt <= 10);
-
+        teclado.close();
     }
 }

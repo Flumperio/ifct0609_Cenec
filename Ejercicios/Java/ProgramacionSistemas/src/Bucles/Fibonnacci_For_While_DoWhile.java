@@ -46,5 +46,6 @@ public class Fibonnacci_For_While_DoWhile {
             numero2 = fibonacci;
             cnt++;
         } while (cnt <= numero);
+        teclado.close();
     }
 }

@@ -9,7 +9,6 @@ public class EjercicioDescuento {
         //Definimos variables
         Scanner teclado = new Scanner(System.in);
         int importe, descuento = 0;
-        double precio_final;
         System.out.println("Introduce el importe: ");
         importe = teclado.nextInt();
         //Main
@@ -27,5 +26,6 @@ public class EjercicioDescuento {
         } else {
             System.out.println("Por un importe de: " + importe + "€, tienes un descuento del " + descuento + "%");
         }
+        teclado.close();
     }
 }
