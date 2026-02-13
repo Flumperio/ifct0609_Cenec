@@ -1,11 +1,12 @@
 package Banco;
 
 import javax.swing.*;
-import java.util.Random;
+import java.util.ArrayList;
 
 public class MainBanco {
     public static void main (String[] args){
         int op_menu, op_menu_alta;
+        ArrayList<CuentaBancaria> cuentas = new ArrayList();
         String [] arrMenu = {"Salir", "Consultar", "Alta"};
         String [] arrAlta = {"Cliente", "Cuenta"};
         // 0.- Banco, 1.- Cuenta Bancaria, 2.- Saldo Inicial, 3.- Nombre, 4.- DNI, 5.- TLF, 6.- NCuenta
@@ -36,12 +37,15 @@ public class MainBanco {
                 }
 
             } else if (op_menu == 1) {
-                CuentaBancaria cuenB1 = new CuentaBancaria(arrDatos[0],Integer.parseInt(arrDatos[1]),Double.parseDouble(arrDatos[2]));
-                Clientes cli1 = new Clientes(arrDatos[3], arrDatos[4], arrDatos[5], cuenB1);
-                String menu = "Nomre: " + cli1.getNombre() + "\nDNI: " + cli1.getDni() + "\nTelefono: " + cli1.getTelefono() +
-                        "\nNumero Cuenta:" + cuenB1.getN_cuenta();
+                cuentas.add(new CuentaBancaria(arrDatos[0],Integer.parseInt(arrDatos[1]),Double.parseDouble(arrDatos[2])));
+                CuentaBancaria buscar = new CuentaBancaria(null, 0, 0);
+                buscar.setN_cuenta(Integer.parseInt(arrDatos[2]));
+                Clientes cli1 = new Clientes(arrDatos[3], arrDatos[4], arrDatos[5], cuentas.get(cuentas.indexOf(cuentas.contains(buscar))));
+                String menu = "Nombre: " + cli1.getNombre() + "\n\nDNI: " + cli1.getDni() + "\n\nTelefono: " + cli1.getTelefono() +
+                        "\n\nNumero Cuenta:" + cli1.getCuenta();
                 JOptionPane.showMessageDialog(null, menu, "Banco", 0);
             }
         }
     }
+
 }
