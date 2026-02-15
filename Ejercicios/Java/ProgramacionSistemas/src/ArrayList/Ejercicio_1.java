@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class Ejercicio_1 {
     public static void main (String[] args){
         //Definición variables
-        ArrayList nombres = new ArrayList<String>();
-        String entrada_teclado;
+        ArrayList<String> nombres = new ArrayList<String>();
         int numeroEntradas;
         Scanner teclado = new Scanner(System.in);
         //Entrada Datos

@@ -46,7 +46,6 @@ public class Ejercico_CRUD {
     //Métodos
     static void impMenu (String [] menu){
         int max_menu = 0;
-        int opcion;
         // Calcular ancho
         for (String elemento : menu) {
             if (elemento.length() > max_menu)

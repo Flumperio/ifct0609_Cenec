@@ -7,7 +7,6 @@ public class Ejercicio_2 {
     public static void main (String[] args){
         //Definición variables
         ArrayList <Integer> numeros = new ArrayList<>();
-        String entrada_teclado;
         int numeroEntradas, sumatorio = 0;
         Scanner teclado = new Scanner(System.in);
         //Entrada Datos
