@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.google.protobuf:protobuf-java:4.31.1">
+    <archive path="/Users/jcsantos/.m2/repository/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar" />
+  </library>
+  <library name="Maven: com.mysql:mysql-connector-j:9.6.0">
+    <archive path="/Users/jcsantos/.m2/repository/com/mysql/mysql-connector-j/9.6.0/mysql-connector-j-9.6.0.jar" />
+  </library>
+</eclipse-userlibraries>
+
