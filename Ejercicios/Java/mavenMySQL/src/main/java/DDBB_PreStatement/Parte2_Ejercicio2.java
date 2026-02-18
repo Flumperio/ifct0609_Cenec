@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class Parte2_Ejercicio2 {
     public static void main (String[] args){
         Scanner teclado = new Scanner(System.in);
-        int filas_insert = 0, id = 0;
-        String nombre, profesor, horas;
+        int id = 0;
         Connection conn = null;
         PreparedStatement prep_stat = null;
         Statement cnt_filas = null; // Consultas simples
@@ -37,8 +36,9 @@ public class Parte2_Ejercicio2 {
             //Cerramos Conexiones
             prep_stat.close();
             cnt_filas.close();
-            prep_stat.close();;
+            prep_stat.close();
             conn.close();
+            teclado.close();
         }
         catch (SQLException e){
             System.out.println("Error: " + e.getMessage());

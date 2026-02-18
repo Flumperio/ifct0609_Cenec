@@ -1,15 +1,9 @@
 package DDBB_PreStatement;
 
-import javax.xml.transform.Result;
 import java.sql.*;
 import java.util.Scanner;
 
 public class Cursos {
-    //Atributos
-//    private int id;
-//    private String nombre_Curso;
-//    private String nombre_Prof;
-//    private int horas;
     private String[] connection_DDBB = {"jdbc:mysql://localhost:3306/academia", "dev", "password"};
     Connection conn = null;
 

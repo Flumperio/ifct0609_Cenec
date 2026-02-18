@@ -6,18 +6,12 @@ import java.util.Scanner;
 public class Ejercicio_Reto_Cursos {
     public static void main(String[] args) {
         //Variables
-        String mod_curso, new_curso;
-
         String[] opciones = {"Añadir", "Eliminar", "Modificar", "Buscar", "Listado", "Salir"};
-
         Connection conn = null;
-
         Scanner teclado = new Scanner(System.in);
         int retMenu;
-
         Cursos sql_curso = new Cursos();
         conn = sql_curso.conn_DDBB(conn);
-
         try {
             do {
                 retMenu = menu(opciones, teclado);
@@ -85,11 +79,6 @@ public class Ejercicio_Reto_Cursos {
         } while (opcion < 1 || opcion > menu.length);
         teclado.nextLine();
         return opcion;
-    }
-    static String load_curso(String menu, Scanner teclado){
-        System.out.println("Dame el nombre del curso " + menu + ":");
-        return teclado.nextLine();
-
     }
     static void imprimirLinea(int longitud) {
         for (int i = 0; i <= longitud; i++)

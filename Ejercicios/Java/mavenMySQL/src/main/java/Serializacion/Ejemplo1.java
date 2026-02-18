@@ -28,6 +28,8 @@ public class Ejemplo1 {
             //Escritura de los datos. Tiene que ser de la misma clase.
             Persona personaRead = (Persona) objetoEntrada.readObject();
             System.out.println(personaRead);
+            archivoEntrada.close();
+            objetoEntrada.close();
 
         } catch (IOException e){
             System.out.println("ErrorIO: " + e);

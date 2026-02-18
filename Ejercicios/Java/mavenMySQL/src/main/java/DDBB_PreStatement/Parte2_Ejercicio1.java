@@ -26,7 +26,7 @@ public class Parte2_Ejercicio1 {
             filas_insert = prep_stat.executeUpdate();
             System.out.println("✅ " + filas_insert + " fila/s fué insertada.");
             //Cerramos Conexiones
-            prep_stat.close();;
+            prep_stat.close();
             conn.close();
         }
         catch (SQLException e){

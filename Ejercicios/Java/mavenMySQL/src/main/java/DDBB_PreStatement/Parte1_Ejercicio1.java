@@ -7,8 +7,8 @@ import java.sql.SQLException;
 
 public class Parte1_Ejercicio1 {
     public static void main (String[] args){
-        Connection conn = null;
-        PreparedStatement prep_stat = null;
+        Connection conn;
+        PreparedStatement prep_stat;
         String sql_Command = "CREATE DATABASE IF NOT EXISTS academia";
         try{
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/", "dev", "password");
@@ -30,7 +30,7 @@ public class Parte1_Ejercicio1 {
             prep_stat.executeUpdate();
             System.out.println("✅ Table creada OK.");
             //Insert Data on table
-            prep_stat.close();;
+            prep_stat.close();
             conn.close();
         }
         catch (SQLException e){
