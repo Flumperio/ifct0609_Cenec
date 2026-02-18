@@ -37,7 +37,6 @@ public class Ejemplo1 {
         System.out.println("Tamaño lista después de borrar: " + lista.size());
 
         //Contains
-        boolean findIT;
         String valor = "Carlos";
         if (nombres.contains(valor) == true){
             System.out.println("La posición es: " + nombres.indexOf(valor));

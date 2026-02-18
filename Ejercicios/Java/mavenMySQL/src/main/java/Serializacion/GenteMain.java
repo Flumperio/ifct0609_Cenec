@@ -4,6 +4,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class GenteMain {
+    @SuppressWarnings("unchecked")
     static void main (){
         //Variables
         ArrayList<Gente> personas = new ArrayList<>();
