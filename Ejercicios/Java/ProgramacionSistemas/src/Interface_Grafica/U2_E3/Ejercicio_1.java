@@ -1,7 +1,5 @@
 package Interface_Grafica.U2_E3;
 
-import Banco.VentanaEntrada;
-
 import javax.swing.*;
 import java.awt.*;
 
