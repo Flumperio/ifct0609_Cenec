@@ -6,19 +6,19 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
-class Ventana8Menu extends JFrame implements ActionListener {
+public class Ventana8Menu extends JFrame implements ActionListener {
     // Declaración de componentes del menú
     private JMenuBar mb = new JMenuBar(); // Barra de menú
     private JMenu menuClientes, menuProveedores, menuProductos, menuInventario, menuAyuda; // Menús para clientes y proveedores
     private JMenuItem mc1, mc2, mp1, mp2, mpro1, mpro2, mpro3, mi1, mi2,ma1, ma2; // Elemento de menú "Abrir"
 
 
-
     public Ventana8Menu() {
         setTitle("Ejemplo de Menú con JFrame"); // Establece el título de la ventana
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Define la operación de cierre de la ventana
-        //setLayout(null); // Layout nulo para posicionar manualmente los componentes
+        setLayout(null); // Layout nulo para posicionar manualmente los componentes
         setJMenuBar(mb); // Asigna la barra de menú al JFrame
         JPanel panelPrincipal = new JPanel(new GridLayout(13,2,4,8));
         panelPrincipal.setBorder(BorderFactory.createEmptyBorder(5, 10, 5, 10));
@@ -70,8 +70,8 @@ class Ventana8Menu extends JFrame implements ActionListener {
     // Método que maneja los eventos de los elementos del menú
     public void actionPerformed(ActionEvent e) {
         Container contentPane = getContentPane(); // Obtiene el panel de contenido de la ventana
-        if (e.getSource() == mi1) { // Comprueba si el evento proviene del ítem "Abrir"
-            contentPane.setBackground(new Color(255, 0, 0)); // Cambia el color de fondo a rojo si se selecciona "Abrir"
+        if (e.getSource() == mc1) { // Comprueba si el evento proviene del ítem "Abrir"
+            contentPane.setBackground(new Color(255, 0, 200)); // Cambia el color de fondo a rojo si se selecciona "Abrir"
         }
     }
 

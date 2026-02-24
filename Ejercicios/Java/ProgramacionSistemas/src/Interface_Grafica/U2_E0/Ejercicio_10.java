@@ -1,12 +1,14 @@
-package Interface_Grafica.U2_E2;
+package Interface_Grafica.U2_E0;
 
 import javax.swing.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-public class Ejercicio_8 {
+public class Ejercicio_10 {
     public static void main() {
-        new Evento_Listener("Anidados", 600, 400);
+        SwingUtilities.invokeLater(() ->
+                new Evento_Listener("Anidados", 600, 400)
+        );
     }
 
     //SubClases

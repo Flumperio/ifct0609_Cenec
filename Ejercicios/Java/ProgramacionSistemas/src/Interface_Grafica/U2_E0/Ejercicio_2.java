@@ -1,4 +1,4 @@
-package Interface_Grafica.U2_E2;
+package Interface_Grafica.U2_E0;
 
 import javax.swing.*;
 
