@@ -1,7 +1,6 @@
 package Interface_Grafica.U2_E0;
 
 import javax.swing.*;
-import java.awt.*;
 
 public class Ejercicio_18 {
     public static void main() {

@@ -1,3 +1,4 @@
 {
-  "editor.default_syntax" : "java"
+  "editor.default_syntax" : "java",
+  "terminal" : "iTerm"
 }

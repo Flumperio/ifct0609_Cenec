@@ -6,6 +6,7 @@ import java.awt.*;
 public class Ejercicio_8 {
     public static void main (){
         SwingUtilities.invokeLater(() -> new Ventana_Bordeer("Ejercicio 5", 450, 300));
+        System.out.println("Se está ejecutando");
     }
 
     static class Ventana_Bordeer extends JFrame {
@@ -60,11 +61,18 @@ public class Ejercicio_8 {
             group.add(radioButton2);
             group.add(radioButton3);
 
+
+            grid_3.add(cardsPanel);
             grid_3.add(radioButton1);
             grid_3.add(radioButton2);
             grid_3.add(radioButton3);
 
+
             panel_3.add(grid_3);
+
+        // hay que meterlo en un grupo, para que al pulsar una opcion no puedas pulsar la otra opcion
+        //si desactivamos esta opcion, podremos usar ambos botones.
+
             //Cuarto Card
             JPanel panel_4 = new JPanel();
             panel_4.add(new JLabel("Cuarto Panel"));

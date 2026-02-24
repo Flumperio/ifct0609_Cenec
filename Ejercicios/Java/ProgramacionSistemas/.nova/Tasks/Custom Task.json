@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "cd \"$PROJECT_DIR\" || exit 1\njavac Interface_Grafica\/U2_E3\/Ventana8Menu_Refactor.java &&\njava Interface_Grafica.U2_E3.Ventana8Menu_Refactor"
+    }
+  },
+  "openLogOnRun" : "start"
+}

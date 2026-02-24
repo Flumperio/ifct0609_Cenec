@@ -1,8 +1,6 @@
 package Interface_Grafica.U2_E0;
 
 import javax.swing.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
 
 public class Ejercicio_11 {
     public static void main() {
