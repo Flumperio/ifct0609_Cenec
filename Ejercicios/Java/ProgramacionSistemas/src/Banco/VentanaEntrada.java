@@ -3,7 +3,8 @@ package Banco;
 import javax.swing.*;
 
 public class VentanaEntrada extends JFrame{
-    private JMenuBar barraMenus;
+    private static final long serialVersionUID = 1L;
+	private JMenuBar barraMenus;
 
     // Constructor: numMenus = número de menús, textos = literales de cada menú
     public VentanaEntrada(int numMenus, String... textos) {
