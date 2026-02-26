@@ -1,0 +1,78 @@
+package Hilos;
+
+import java.util.Scanner;
+
+public class Calculadora_ConHilo {
+    public static void main(String[] args) throws InterruptedException {
+        Scanner scanner = new Scanner(System.in);
+        double num1, num2;
+
+        // pide usuario dos números y una operación
+        System.out.print("Introduce el primer número: ");
+        num1 = scanner.nextDouble();
+        System.out.print("Introduce el segundo número: ");
+        num2 = scanner.nextDouble();
+        new HiloSuma(num1, num2).start();
+        new HiloResta(num1, num2).start();
+        new HiloMulti(num1, num2).start();
+        new HiloDiv(num1, num2).start();
+        scanner.close();
+    }
+    static class HiloResta extends Thread {
+        // atributos de clase
+        private double num1, num2;
+        //constructor
+        public HiloResta(double num1, double num2) {
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        // método run
+        public void run() {
+            System.out.println("Resta: " + (num1 - num2));
+        }
+    }
+    static class HiloSuma extends Thread {
+        // atributos de clase
+        private double num1, num2;
+
+        //constructor
+        public HiloSuma(double num1, double num2) {
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        // método run
+        public void run() {
+            System.out.println("Suma: " + (num1 + num2));
+        }
+    }
+    static class HiloMulti extends Thread {
+        // atributos de clase
+        private double num1, num2;
+
+        //constructor
+        public HiloMulti(double num1, double num2) {
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        // método run
+        public void run() {
+            System.out.println("Multiplicación: " + (num1 * num2));
+        }
+    }
+    static class HiloDiv extends Thread {
+        // atributos de clase
+        private double num1, num2;
+
+        //constructor
+        public HiloDiv(double num1, double num2) {
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        // método run
+        public void run() {
+            System.out.println("División: " + (num1 / num2));
+        }
+    }
+
+}
+

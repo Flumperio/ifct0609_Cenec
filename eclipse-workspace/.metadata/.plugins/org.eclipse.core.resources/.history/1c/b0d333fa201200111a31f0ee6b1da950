@@ -1,0 +1,17 @@
+package Procesos;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Ejercicio1Proceso {
+
+	public static void main(String[] args) throws IOException {
+		ProcessBuilder proceso;
+		System.out.println("Abriendo el textedit");
+		proceso = new ProcessBuilder("open", "-a", "/Applications/Numbers.app");
+
+		proceso.start();
+		proceso.directory(new File("/Servicios_Procesos/Ficheros"));
+		proceso.start();
+	}
+}

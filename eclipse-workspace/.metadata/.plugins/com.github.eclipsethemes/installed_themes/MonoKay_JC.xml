@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colorTheme author="Juan Carlos (SIN BLANCOS)" id="1758274259747" name="Sublime Text Monokai - NO WHITE" ect-id="bbdf0706-ccba-4caa-a979-9b882789bf1c">
+
+    <!-- Core Editor UI - TODOS blancos → #d4d4d4 -->
+    <background color="#272822"/>
+    <commentTaskTag color="#75715E" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <currentLine color="#5B5A4E"/>
+    <deletionIndication color="#FF0000" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <deprecatedMember color="#FF0000" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <filteredSearchResultIndication color="#D8D8D8"/>
+    <foreground color="#d4d4d4"/>  <!-- F8F8F2 → d4d4d4 -->
+    <javadoc color="#75715E" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <javadocKeyword color="#D9E577" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <javadocLink color="#75715E" bold="false" italic="false" underline="true" strikethrough="false"/>
+    <javadocTag color="#75715E" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <lineNumber color="#999999"/>
+    <occurrenceIndication color="#000000"/>
+    <parameterVariable color="#FD971F" bold="false" italic="true" underline="false" strikethrough="false"/>
+    <searchResultIndication color="#D8D8D8"/>
+    <selectionBackground color="#CC9900"/>
+    <selectionForeground color="#d4d4d4"/>  <!-- 404040 → d4d4d4 (legible) -->
+    <singleLineComment color="#75715E" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <sourceHoverBackground color="#5B5A4E"/>  <!-- FFFFFF → 5B5A4E -->
+    <staticFinalField color="#AE81FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <typeArgument color="#FD971F" bold="false" italic="true" underline="false" strikethrough="false"/>
+    <typeParameter color="#BED6FF" bold="true" italic="true" underline="false" strikethrough="false"/>
+    <writeOccurrenceIndication color="#000000"/>
+
+    <!-- Editor Highlights & Features -->
+    <findScope color="#000000"/>
+
+    <!-- Comments & Documentation -->
+    <multiLineComment color="#75715E" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Keywords & Operators -->
+    <bracket color="#d4d4d4" bold="false" italic="false" underline="false" strikethrough="false"/>  <!-- F9FAF4 → d4d4d4 -->
+    <keyword color="#F92672" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <operator color="#F92672" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Literals (Strings, Numbers) -->
+    <number color="#AE81FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <string color="#E6DB74" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Variables & Identifiers -->
+    <constant color="#AE81FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <field color="#d4d4d4" bold="false" italic="false" underline="false" strikethrough="false"/>  <!-- FFFFFF → d4d4d4 -->
+    <localVariable color="#F92672" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <localVariableDeclaration color="#d4d4d4" bold="false" italic="false" underline="false" strikethrough="false"/>  <!-- FFFFFF → d4d4d4 -->
+    <staticField color="#d4d4d4" bold="false" italic="false" underline="false" strikethrough="false"/>  <!-- FFFFFF → d4d4d4 -->
+
+    <!-- Syntax: Functions & Methods -->
+    <abstractMethod color="#BED6FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <inheritedMethod color="#BED6FF" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <method color="#52E3F6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <methodDeclaration color="#52E3F6" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <staticMethod color="#52E3F6" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Types & Structures -->
+    <class color="#A6E22E" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <enum color="" bold="false" italic="false" underline="false" strikethrough="false"/>
+    <interface color="#52E3F6" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+    <!-- Syntax: Meta & Advanced Constructs -->
+    <annotation color="#75715E" bold="false" italic="false" underline="false" strikethrough="false"/>
+
+</colorTheme>

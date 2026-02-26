@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.PrivateKey"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.reader.impl.KillRing"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo.HiloPot"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Hilos_2.Calculo_IVAs.HiloIVA7"/>
+    <fullyQualifiedTypeName name="Hilos_2.Calculo_IVAs.HiloIVA10"/>
+    <fullyQualifiedTypeName name="Hilos_2.Calculo_IVAs.HiloIVA21"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo_Prioroty.HiloSuma"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo_Prioroty.HiloPot"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo.HiloDiv"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo_Prioroty.HiloResta"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo_Prioroty.HiloMulti"/>
+    <fullyQualifiedTypeName name="Hilos.Calculadora_ConHilo_Prioroty.HiloDiv"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package Procesos;
+
+import java.io.IOException;
+
+public class Test_1 {
+
+	public static void main(String[] args) throws IOException {
+		ProcessBuilder proceso;
+		System.out.println("Abriendo el textedit");
+		proceso = new ProcessBuilder("open", "-a", "/Applications/iTerm.app");
+		proceso.start();
+	}
+}

@@ -1,0 +1,61 @@
+package Hilos_2;
+
+import java.util.Scanner;
+
+public class Calculo_IVAs {
+    public static void main(String[] args) throws InterruptedException {
+        Scanner scanner = new Scanner(System.in);
+        double num1;
+
+        // pide usuario dos números y una operación
+        System.out.print("Introduce el valor a calcular todos los IVAs: ");
+        num1 = scanner.nextDouble();
+        new HiloIVA7(num1).start();
+        new HiloIVA10(num1).start();
+        new HiloIVA21(num1).start();
+        scanner.close();
+    }
+    static class HiloIVA7 extends Thread {
+        // atributos de clase
+        private double num1;
+        private int iva;
+        //constructor
+        public HiloIVA7(double num1) {
+            this.num1 = num1;
+            this.iva = 7;
+        }
+        // método run
+        public void run() {
+            System.out.println("" + (iva*30));
+        }
+    }
+    static class HiloIVA10 extends Thread {
+        // atributos de clase
+        private double num1;
+        private int iva;
+        //constructor
+        public HiloIVA10(double num1) {
+            this.num1 = num1;
+            this.iva = 10;
+        }
+        // método run
+        public void run() {
+        	System.out.println("IVA " + iva +"% " + (num1 * (iva/100)));
+        }
+    }
+    static class HiloIVA21 extends Thread {
+        // atributos de clase
+        private double num1;
+        private int iva;
+        //constructor
+        public HiloIVA21(double num1) {
+            this.num1 = num1;
+            this.iva = 21;
+        }
+        // método run
+        public void run() {
+        	System.out.println("IVA " + iva +"% " + (num1 * (iva/100)));
+        }
+    }
+}
+

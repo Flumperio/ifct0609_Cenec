@@ -1,0 +1,16 @@
+package Procesos;
+
+public class Ejercicio1Proceso {
+
+	public static void main(String[] args){
+		try {
+		ProcessBuilder proceso;
+		System.out.println("Abriendo el textedit");
+		proceso = new ProcessBuilder("open", "-a", "/Applications/Numbers Creator Studio.app", "/Users/jcsantos/eclipse-workspace/Servicios_Procesos/Ficheros/Prueba.numbers");
+		proceso.start();
+
+		} catch (Exception e){
+			System.out.println(e);
+		}
+	}
+}
