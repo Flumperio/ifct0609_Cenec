@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    .menu { background: #333; text-align: center; margin: 20px auto; width: 600px; border-radius: 80px;}
+    .menu ul { list-style: none; }
+    .menu li { display: inline-block; }
+    .menu a { color: white; padding: 15px 20px; display: block; text-decoration: none; border-radius: 80px;}
+    .menu a:hover { background: #555; }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Cursos</title>
+    <script>
+        async function obtenerCursos() {
+            try {
+                const response = await fetch('http://localhost:9090/api/cursos');
+                if (!response.ok) throw new Error('Error en la solicitud: ' + response.statusText);
+                const data = await response.json();
+                document.getElementById('resultado').innerText = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('Error al obtener cursos:', error);
+            }
+        }
+
+        async function obtenerCursosPorId() {
+            const id = document.getElementById('cursosId').value;
+            try {
+                const response = await fetch('http://localhost:9090/api/cursos/' + id);
+                if (!response.ok) throw new Error('Error en la solicitud: ' + response.statusText);
+                const data = await response.json();
+                document.getElementById('resultado').innerText = JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('Error al obtener cursos:', error);
+            }
+        }
+
+        async function guardarCursos() {
+            const nombre_curso = document.getElementById('nombre_curso').value;
+            const descripcion = document.getElementById('descripcion').value;
+            const precio = document.getElementById('precio').value;
+
+            try {
+                const response = await fetch('http://localhost:9090/api/cursos', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ nombre_curso, descripcion, precio })
+                });
+
+                if (!response.ok) throw new Error('Error en la solicitud: ' + response.statusText);
+                const data = await response.json();
+                document.getElementById('resultado').innerText = 'Curso guardado: ' + JSON.stringify(data, null, 2);
+            } catch (error) {
+                console.error('Error al guardar curso:', error);
+            }
+        }
+
+        async function eliminarCursos() {
+            const id = document.getElementById('cursosIdEliminar').value;
+            try {
+                const response = await fetch('http://localhost:9090/api/cursos/' + id, {
+                    method: 'DELETE'
+                });
+
+                if (!response.ok) throw new Error('Error en la solicitud: ' + response.statusText);
+                document.getElementById('resultado').innerText = 'Cursos con ID ' + id + ' eliminado.';
+            } catch (error) {
+                console.error('Error al eliminar cursos:', error);
+            }
+        }
+    </script>
+</head>
+<nav class="menu">
+    <ul>
+        <li><a href="alumno.html">👨‍🎓 Modo Alumno</a></li>
+        <li><a href="profesores.html">👨‍🏫 Modo Profesor</a></li>
+        <li><a href="cursos.html">📋 Modo Curso</a></li>
+    </ul>
+</nav>
+<body>
+    <h1>Gestión de Cursos</h1>
+
+    <h2>Obtener todos los cursos</h2>
+    <button onclick="obtenerCursos()">Obtener Todos</button>
+
+    <h2>Obtener un curso por ID</h2>
+    <input type="text" id="cursosId" placeholder="ID del Cursos">
+    <button onclick="obtenerCursosPorId()">Obtener Cursos</button>
+
+    <h2>Guardar un nuevo cursos</h2>
+    <form onsubmit="event.preventDefault(); guardarCursos();">
+        <label for="nombre_curso">Nombre_Curso:</label><br>
+        <input type="text" id="nombre_curso" name="nombre_curso"><br>
+        <label for="descripcion">Descripcion:</label><br>
+        <input type="text" id="descripcion" name="descripcion"><br>
+        <label for="precio">Precio:</label><br>
+        <input type="text" id="precio" name="precio"><br>
+        <input type="submit" value="Guardar Cursos">
+    </form>
+
+    <h2>Eliminar un cursos por ID</h2>
+    <input type="text" id="cursosIdEliminar" placeholder="ID del Cursos">
+    <button onclick="eliminarCursos()">Eliminar Cursos</button>
+
+    <h2>Resultado</h2>
+    <pre id="resultado"></pre>
+</body>
+</html>
