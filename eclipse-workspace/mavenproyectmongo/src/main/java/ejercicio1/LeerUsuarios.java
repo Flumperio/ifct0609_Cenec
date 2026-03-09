@@ -12,7 +12,7 @@ public class LeerUsuarios {
         String uri = "mongodb://localhost:27017";
 
         try (MongoClient mongoClient = MongoClients.create(uri)) {
-            MongoDatabase database = mongoClient.getDatabase("AlbertoImperator");
+            MongoDatabase database = mongoClient.getDatabase("usuarios");
             MongoCollection<Document> collection = database.getCollection("usuarios");
 
             // Obtener todos los documentos
