@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/.idea/queries/Query.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/.idea/queries/Query_1.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/.idea/queries/Query_2.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/Repaso_Python/Opcion_1_SIN_GPT/ejercicio_21.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/Repaso_Python/Opcion_1_SIN_GPT/ejercicio_24.py" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/Repaso_Python/Opcion_2_ChatGPT/ejercicio_13_crear_db.py" dialect="SQLite" />
+  </component>
+</project>

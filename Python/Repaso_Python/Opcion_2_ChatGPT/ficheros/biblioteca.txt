@@ -1,0 +1,209 @@
+Libro 1:
+Título: Don Quijote de la Mancha
+Autor: Miguel de Cervantes
+Año: 1605
+Páginas: 863
+------------------------------
+
+Libro 2:
+Título: La Celestina
+Autor: Fernando de Rojas
+Año: 1499
+Páginas: 192
+------------------------------
+
+Libro 3:
+Título: El Lazarillo de Tormes
+Autor: Anónimo
+Año: 1554
+Páginas: 128
+------------------------------
+
+Libro 4:
+Título: Cien años de soledad
+Autor: Gabriel García Márquez
+Año: 1967
+Páginas: 417
+------------------------------
+
+Libro 5:
+Título: La familia de Pascual Duarte
+Autor: Camilo José Cela
+Año: 1942
+Páginas: 162
+------------------------------
+
+Libro 6:
+Título: Nada
+Autor: Carmen Laforet
+Año: 1945
+Páginas: 287
+------------------------------
+
+Libro 7:
+Título: Fortunata y Jacinta
+Autor: Benito Pérez Galdós
+Año: 1887
+Páginas: 1321
+------------------------------
+
+Libro 8:
+Título: La casa de Bernarda Alba
+Autor: Federico García Lorca
+Año: 1936
+Páginas: 96
+------------------------------
+
+Libro 9:
+Título: Los santos inocentes
+Autor: Miguel Delibes
+Año: 1981
+Páginas: 278
+------------------------------
+
+Libro 10:
+Título: Corazón tan blanco
+Autor: Javier Marías
+Año: 1992
+Páginas: 340
+------------------------------
+
+Libro 11:
+Título: La sombra del viento
+Autor: Carlos Ruiz Zafón
+Año: 2001
+Páginas: 612
+------------------------------
+
+Libro 12:
+Título: El capitán Alatriste
+Autor: Arturo Pérez-Reverte
+Año: 1996
+Páginas: 280
+------------------------------
+
+Libro 13:
+Título: Requiem por un campesino español
+Autor: Ramón J. Sender
+Año: 1953
+Páginas: 152
+------------------------------
+
+Libro 14:
+Título: Luces de bohemia
+Autor: Ramón del Valle-Inclán
+Año: 1924
+Páginas: 208
+------------------------------
+
+Libro 15:
+Título: La verdad sobre el caso Savolta
+Autor: Eduardo Mendoza
+Año: 1975
+Páginas: 384
+------------------------------
+
+Libro 16:
+Título: Bartleby y compañía
+Autor: Enrique Vila-Matas
+Año: 2000
+Páginas: 192
+------------------------------
+
+Libro 17:
+Título: El tiempo entre costuras
+Autor: María Dueñas
+Año: 2009
+Páginas: 608
+------------------------------
+
+Libro 18:
+Título: Patria
+Autor: Fernando Aramburu
+Año: 2016
+Páginas: 496
+------------------------------
+
+Libro 19:
+Título: La Reina en el palacio de las corrientes de aire
+Autor: Selma Lagerlöf
+Año: 1891
+Páginas: 256
+------------------------------
+
+Libro 20:
+Título: Soldados de Salamina
+Autor: Javier Cercas
+Año: 2001
+Páginas: 224
+------------------------------
+
+Libro 21:
+Título: El palacio de la medianoche
+Autor: Carlos Ruiz Zafón
+Año: 1994
+Páginas: 296
+------------------------------
+
+Libro 22:
+Título: Los girasoles ciegos
+Autor: Alberto Méndez
+Año: 2004
+Páginas: 128
+------------------------------
+
+Libro 23:
+Título: Entre visillos
+Autor: Carmen Martín Gaite
+Año: 1958
+Páginas: 384
+------------------------------
+
+Libro 24:
+Título: Galíndez
+Autor: Manuel Vázquez Montalbán
+Año: 1990
+Páginas: 512
+------------------------------
+
+Libro 25:
+Título: Lo que el viento se llevó
+Autor: Margaret Mitchell
+Año: 1936
+Páginas: 1032
+------------------------------
+
+Libro 26:
+Título: El nombre de la rosa
+Autor: Umberto Eco
+Año: 1980
+Páginas: 592
+------------------------------
+
+Libro 27:
+Título: El perfume
+Autor: Patrick Süskind
+Año: 1985
+Páginas: 256
+------------------------------
+
+Libro 28:
+Título: El alquimista
+Autor: Paulo Coelho
+Año: 1988
+Páginas: 208
+------------------------------
+
+Libro 29:
+Título: Como agua para chocolate
+Autor: Laura Esquivel
+Año: 1989
+Páginas: 240
+------------------------------
+
+Libro 30:
+Título: Rayuela
+Autor: Julio Cortázar
+Año: 1963
+Páginas: 634
+------------------------------
