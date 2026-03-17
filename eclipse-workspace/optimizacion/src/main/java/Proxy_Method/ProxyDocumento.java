@@ -5,7 +5,7 @@ public class ProxyDocumento implements Documento{
 	private DocumentoReal documentoReal;
 	private String nombre;
 	//Constuctor
-	public ProxyDocumento (){
+	public ProxyDocumento (String nombre){
 		this.nombre = nombre;
 	}
 	@Override
